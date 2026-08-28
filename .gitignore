@@ -1,0 +1,48 @@
+# Entornos locales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos, dumps y salidas generadas
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.jsonl
+output/
+exports/
+data/raw/
+data/interim/
+
+# Logs y temporales
+*.log
+*.tmp
+*.temp
+*.bak
+~$*
+
+# Sistema/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Variables de entorno y secretos locales
+.env
+.env.*
+!.env.example

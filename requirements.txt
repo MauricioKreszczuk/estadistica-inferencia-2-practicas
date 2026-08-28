@@ -1,0 +1,13 @@
+numpy==2.0.2
+scipy==1.16.1
+pandas==2.3.0
+matplotlib==3.10.0
+llvmlite==0.43.0
+numba==0.60.0
+arviz==0.22.0
+pymc==5.28.5
+pytensor==2.38.3
+arviz_stats==0.6.0
+preliz==0.20.0
+ipykernel
+ipywidgets
